@@ -5,28 +5,50 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preload" as="image" href="profile-front.jpg">
     <link rel="preload" as="image" href="profile.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
-    
+  <header>
+    <ul id="menu">
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </header>
+
   <div id="wrapper">
-    <div id="profile-holder"></div>
+    <div class="row">
+      <div id="profile-holder"></div>
 
-    <div id="social">
-        <a href="https://github.com/dinespoulsen/CV"><img class="socials" src="GitHub.png" alt="Github profile"></a>
-        <a href="https://www.linkedin.com/in/dinespoulsen"><img class="socials" src="linkedin.png" alt="Linkedin profile"></a>
+      <div id="social">
+          <a href="https://github.com/dinespoulsen/CV"><img class="socials" src="GitHub.png" alt="Github profile"></a>
+          <a href="https://www.linkedin.com/in/dinespoulsen"><img class="socials" src="linkedin.png" alt="Linkedin profile"></a>
+      </div>
+    </div>
+    <div class="row row-intro">
+      <div class="intro">
+        <a name="about"></a>
+        <p id="about">"Hi! I'm a fullstack web developer always looking to learn more about the latest technology trends. Check out my projects below that I made during my time at Makers Academy."<p>
+      </div>
     </div>
 
-    <div id="intro">
-      <p id="about">"Hi! I'm a fullstack web developer always looking to learn more about the latest technology trends. I Recently graduated from Makers Academy, London's top web development bootcamp, and now I'm looking to join a fun and exciting project."<p>
+    <div class="row row-portfolio">
+        <a name="projects"></a>
+          <div id="standup">
+            <a href="https://standupsandretros.herokuapp.com/"><div class="project"></div></a>
+          </div>
+        <!-- <a class="project" href="https://rubygems.org/gems/has_belongs">Has_belongs</a>
+        <a class="project" href="https://insta-challenge-clone.herokuapp.com/">Instagram-Challenge</a>
+        <a class="project" href="http://my-chitter.herokuapp.com/">Chitter-Challenge</a> -->
     </div>
 
-    <div id="projects">
-      <h3 class="headers">Portfolio</h3>
-      <a href="https://standupsandretros.herokuapp.com/" class="project">Standups & Retros</a>
-      <a href="https://rubygems.org/gems/has_belongs" class="project">Has_belongs</a>
-      <a href="https://insta-challenge-clone.herokuapp.com/" class="project">Instagram-Challenge</a>
-      <a href="http://my-chitter.herokuapp.com/" class="project">Chitter-Challenge</a>
+    <div class="row row-outro">
+      <div class="intro">
+        <a name="contact"></a>
+        <p id="outro">"I'm always available for a chat so feel free to contact me on Github or Linkedin if you like what you see."<p>
+      </div>
     </div>
   </div>
+  <script src="index.js"></script>
   </body>
 </html>
