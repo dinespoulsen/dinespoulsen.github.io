@@ -18,6 +18,7 @@ header {
 }
 
 #logo {
+  font-size: 2em;
   margin-left: 10px;
   color: white;
   float: left;
@@ -154,13 +155,17 @@ header {
 
 @media only screen and (max-width: 600px) {
 
+#logo {
+  font-size: 1.7em;
+}
+
 .intro {
   width: 80%;
 }
 
 #profile-holder {
-  width: 250px;
-  height: 260px;
+  width: 200px;
+  height: 210px;
 }
 
 #profile-holder:hover {
