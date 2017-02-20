@@ -17,5 +17,9 @@ window.onload = function(){
     if(window.innerWidth >= 600 ) {
       menuList.style.display = "inline-block";
     }
+    else {
+      menuList.style.display = "none";
+      menu.setAttribute("toggle", "off");
+    }
   });
 };
