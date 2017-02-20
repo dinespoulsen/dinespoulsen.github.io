@@ -73,3 +73,12 @@ a {
   margin-bottom: 6px;
   border-radius: 5px;
 }
+
+
+@media only screen and (max-width: 400px) {
+
+body {
+  background-color: lightgreen;
+}
+
+}
