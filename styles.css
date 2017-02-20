@@ -32,9 +32,8 @@ a {
 
 #social {
   margin: auto;
-  width: 100px;
+  width: 85px;
   height: 50px;
-  margin-bottom: 25px;
 }
 
 .socials {
@@ -42,15 +41,27 @@ a {
   width: 40px;
 }
 
+#intro {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 100px;
+  padding: 15px;
+}
+
+#about {
+  text-align: center;
+  font-style: italic;
+}
+
 #projects {
   width: 70%;
   margin: auto;
-
 }
 
 .headers {
   margin: 0;
-  margin-bottom: 6px;
+  margin-bottom: 9px;
   border-bottom: solid 2px #F5F5F5;
 }
 
