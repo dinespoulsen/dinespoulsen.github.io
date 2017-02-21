@@ -40,7 +40,7 @@ window.onload = function(){
 
   window.addEventListener("scroll", function(){
     for ( var i = 0; i < fadingIns.length; i += 1)
-    if(window.innerHeight + window.scrollY >= fadingIns[i].offsetTop - 10) {
+    if(window.innerHeight + window.scrollY >= fadingIns[i].offsetTop - 5) {
       fadingIns[i].classList.remove('is-paused')
     }
 

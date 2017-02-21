@@ -15,6 +15,7 @@ header {
   width: 100%;
   height: 70px;
   background-color: rgba(193, 66, 66, 0.15);
+  z-index:99;
 }
 
 #logo {
@@ -62,13 +63,6 @@ header {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.row-outro {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ff5900;
 }
 
 @keyframes fadeIn {
@@ -165,6 +159,26 @@ header {
 
 .project:hover {
   background-color: rgba(0, 0, 0, 0);
+}
+
+#tech-stack {
+  overflow: auto;
+}
+
+#tech-left {
+  margin-left: 30%;
+  float: left;
+}
+
+#tech-right {
+  margin-right: 30%;
+  float: right;
+}
+
+.tech-list {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
