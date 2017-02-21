@@ -2,6 +2,7 @@ window.onload = function(){
 
   var menu = document.getElementById("responsive-menu");
   var menuList = document.getElementById("menu");
+  var profile = document.getElementById("profile-holder");
   menu.addEventListener("click", function(){
     if(menu.getAttribute("toggle") != "on"){
       menu.setAttribute("toggle", "on");
@@ -11,6 +12,14 @@ window.onload = function(){
       menu.setAttribute("toggle", "off");
       menuList.style.display = "none";
     }
+  });
+
+  profile.addEventListener("touchstart", function(){
+    profile.style.backgroundImage = "url('profile-front.jpg')";
+  });
+
+  profile.addEventListener("touchend", function(){
+    profile.style.backgroundImage = "url('profile.png')";
   });
 
   window.addEventListener('resize', function(){

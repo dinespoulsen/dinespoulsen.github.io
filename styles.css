@@ -81,8 +81,8 @@ header {
   background-image: url("profile.png");
   background-repeat: no-repeat;
   background-size: 115%;
-  width: 300px;
-  height: 310px;
+  width: 250px;
+  height: 260px;
 }
 
 #profile-holder:hover {
