@@ -4,10 +4,7 @@ body {
   font-family: arial;
 }
 
-a {
-  text-decoration: none
-
-}
+/*Header*/
 
 header {
   position: fixed;
@@ -20,7 +17,7 @@ header {
 
 #logo {
   font-size: 2em;
-  margin-left: 10px;
+  margin-left: 30px;
   color: white;
   float: left;
 }
@@ -42,6 +39,8 @@ header {
   color: white;
 }
 
+/*General layout*/
+
 #wrapper {
   margin-top: 100px;
   width: 100%;
@@ -52,18 +51,7 @@ header {
   margin: 20px 0px;
 }
 
-.row-intro {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ff5900;
-}
-
-.row-portfolio {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+/*Animation*/
 
 @keyframes fadeIn {
   to {
@@ -80,13 +68,15 @@ header {
   animation-play-state: paused;
 }
 
+/*Profile picture*/
+
 #profile-holder {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 25px;
   border: 1px solid #FFFAFA;
   border-radius: 50%;
-  background-image: url("profile.png");
+  background-image: url("./public/profile.png");
   background-repeat: no-repeat;
   background-size: 115%;
   width: 250px;
@@ -94,19 +84,21 @@ header {
 }
 
 #profile-holder:hover {
-  background-image: url("profile-front.jpg");
+  background-image: url("./public/profile-front.jpg");
   background-size: 115%;
 }
 
-#social {
-  margin: auto;
-  width: 125px;
-  height: 65px;
+#about {
+  text-align: center;
+  font-style: italic;
 }
 
-.socials {
-  margin: 0;
-  width: 60px;
+/*Intro text to rows*/
+.row-intro {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ff5900;
 }
 
 .intro {
@@ -116,15 +108,10 @@ header {
   color: white;
 }
 
-#about {
-
-  text-align: center;
-  font-style: italic;
-}
-
+/*Projects*/
 
 #standup {
-  background-image: url("standup.jpeg");
+  background-image: url("./public/standup.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 250px;
@@ -133,7 +120,7 @@ header {
 
 #has-belongs {
   margin-top: 10px;
-  background-image: url("has-belongs.jpg");
+  background-image: url("./public/has-belongs.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 250px;
@@ -142,7 +129,7 @@ header {
 
 #insta-challenge {
   margin-top: 10px;
-  background-image: url("insta-challenge.jpg");
+  background-image: url("./public/insta-challenge.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 250px;
@@ -160,6 +147,8 @@ header {
 .project:hover {
   background-color: rgba(0, 0, 0, 0);
 }
+
+/*Tech stack*/
 
 #tech-stack {
   overflow: auto;
@@ -181,6 +170,21 @@ header {
   margin: 0;
 }
 
+/*Contact and socials*/
+
+#social {
+  margin: auto;
+  width: 125px;
+  height: 65px;
+}
+
+.socials {
+  margin: 0;
+  width: 60px;
+}
+
+/*Meadia queries*/
+
 @media only screen and (max-width: 600px) {
 
 #logo {
@@ -197,7 +201,7 @@ header {
 }
 
 #profile-holder:hover {
-  background-image: url("profile-front.jpg");
+  background-image: url("./public/profile-front.jpg");
   background-size: 115%;
 }
 
@@ -210,7 +214,7 @@ header {
   height: 50px;
   margin-top: 12px;
   margin-right: 20px;
-  background-image: url("menu-icon.png");
+  background-image: url("./public/menu-icon.png");
   background-size: 50px;
   background-repeat: no-repeat;
   float: right;
