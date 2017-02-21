@@ -17,15 +17,15 @@ window.onload = function(){
   });
 
   profile.addEventListener("touchstart", function(){
-    profile.style.backgroundImage = "url('profile-front.jpg')";
+    profile.style.backgroundImage = "url('./public/profile-front.jpg')";
   });
 
   profile.addEventListener("touchmove", function(){
-    profile.style.backgroundImage = "url('profile-front.jpg')";
+    profile.style.backgroundImage = "url('./public/profile-front.jpg')";
   });
 
   profile.addEventListener("touchend", function(){
-    profile.style.backgroundImage = "url('profile.png')";
+    profile.style.backgroundImage = "url('./public/profile.png')";
   });
 
   window.addEventListener('resize', function(){
