@@ -118,6 +118,14 @@ header {
   width: 100%;
 }
 
+#webshop {
+  background-image: url("./public/webshop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+  width: 100%;
+}
+
 #has-belongs {
   margin-top: 10px;
   background-image: url("./public/has-belongs.jpg");
